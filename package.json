@@ -1,7 +1,7 @@
 {
   "name": "electron-boilerplate",
   "version": "1.0.0",
-  "description": "Electron boilerplate made by me",
+  "description": "minimalize electron-boilerplate",
   "main": "main.js",
   "scripts": {
     "start": "electron .",
@@ -9,16 +9,29 @@
     "build:win64": "electron-builder --win --x64",
     "build:win": "npm run build:win32 && npm run build:win64"
   },
-  "repository": "https://github.com/Ohmry/electron-boilerplate",
+  "bugs": {
+    "url": "https://github.com/Ohmry/electron-boilerplate/issues",
+    "email": "o.ohmry@gmail.com"
+  },
+  "repository": {
+    "type" : "git",
+    "url": "https://github.com/Ohmry/electron-boilerplate"
+  },
+  "files": [
+    "assets"
+  ],
   "keywords": [
-    "Ohmry",
-    "Electron",
+    "ohmry",
+    "electron-boilerplate",
     "electron",
-    "boilerplate",
-    "electron-boilerplate"
+    "boilerplate"
   ],
   "asar": true,
-  "author": "Ohmry",
+  "author": {
+    "name": "Ohmry",
+    "email": "o.ohmry@gmail.com",
+    "url": "https://github.com/Ohmry"
+  },
   "license": "MIT",
   "build": {
     "productName": "Electron Boilerplate",
