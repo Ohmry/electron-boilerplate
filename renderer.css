@@ -1,0 +1,36 @@
+/* stylesheet using in renderer.html */
+@import 'node_modules/bulma/css/bulma.min.css';
+@import 'node_modules/@fontsource/ubuntu/400.css';
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+html {
+    background-color: #e8f8f8;
+}
+
+
+img {
+    width: 130px;
+    display: block;
+    margin: 0px auto;
+}
+
+ul {
+    display: block;
+    margin-left: 210px;
+    font-weight: bold;
+    list-style-type: square;
+}
+
+li > span {
+    font-weight: normal;
+}
+
+.mt10 {
+    margin-top: 10px;
+}
+.mt20 {
+    margin-top: 20px;
+}

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <!-- https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP -->
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'">
+    <meta http-equiv="X-Content-Security-Policy" content="default-src 'self'; script-src 'self'">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel='stylesheet' href='node_modules/@fortawesome/fontawesome-free/css/solid.min.css'>
+    <link rel='stylesheet' href='node_modules/@fortawesome/fontawesome-free/css/fontawesome.min.css'>
+    <link rel='stylesheet' href='./renderer.css'>
+    <script defer src='node_modules/@fortawesome/fontawesome-free/js/fontawesome.min.js'></script>
+  </head>
+  <body>
+    <img class='mt10' src='./assets/electron.png'>
+    <p class='is-size-1 has-text-centered'>Electron Boilerplate</p>
+    <p class='is-size-6 has-text-centered mt10'>
+      This is simple boilerplate to create electron application.<br/>
+      it has minimal files to run or build. installed modules is below to
+    </p>
+    <ul class='mt10'>
+      <li>electron-builder</li>
+      <li>electron-reload</li>
+      <li>bulma <span>(Optional, CSS Framework)</span></li>
+      <li>@fontsource/ubuntu <span>(Optional, Font)</span></li>
+      <li>@fortawsome/fontawesome-free <span>(Optional, Icon style)</span></li>
+    </ul>
+    <!-- You can also require other files to run in this process -->
+    <script src="./renderer.js"></script>
+  </body>
+</html>
